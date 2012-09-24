@@ -9,3 +9,33 @@ by adding the following lines in your .vimrc file:
 filetype plugin indent on
 syntax on
 
+
+
+To indent the current line, simply type "=="
+
+To indent the whole ncl file, type "gg=G"
+
+
+
+Known problem:
+When you use "else if" statement like this,
+
+if ( condition ) then
+  ...
+else if ( condition ) then
+  ...
+else if ( condition ) then
+  ...
+end if
+end if
+end if
+
+the indent code may not work right. To avoid that, try the following code style
+if ( condition ) then
+  ...
+else
+  if ( condition ) then
+    ...
+  end if
+end if
+
