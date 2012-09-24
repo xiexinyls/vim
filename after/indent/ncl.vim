@@ -30,12 +30,8 @@ function NCLIndent()
       let ind = ind + &sw
    endif
 
-   "if getline(v:lnum) =~? '^\s*\(\else|end\)\s*\(\do\|if\)'
    if curstat =~? '^\s*\(else\|\(end\s*\(do\|if\)\)\)\>'
       let ind = ind - &sw
-"     if prevstat =~? '^\s*end\s*if\>\s*'
-"        let ind = ind + &sw
-"     endif
    endif
 "  echo ind
    if ind < 0
