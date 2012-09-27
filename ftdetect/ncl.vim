@@ -1,7 +1,8 @@
 
 "for NCL filetype detect and autocomplete
 
-au BufRead,BufNewFile *.ncl set filetype=ncl
+"au BufRead,BufNewFile *.ncl set filetype=ncl
+au BufRead,BufNewFile *.ncl setf ncl
 "au! Syntax newlang source $VIM/ncl.vim
 
 "Show autocomplete menus.
