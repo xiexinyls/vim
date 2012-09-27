@@ -5,6 +5,13 @@
 "Author: Xin Xie
 "Reference: Sebastien Burton and Ajit J. Thakkar's code for Fortran indent.
 "-------------------------------------------------------------------------------
+"
+if exists("g:did_indent")
+   finish
+endif
+
+let g:did_indent = 1
+
 
 setlocal indentkeys+==~end,=~do,=~if,=~then,=~else
 
