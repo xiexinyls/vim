@@ -13,7 +13,6 @@ endif
 
 let g:did_indent = 1
 
-
 setlocal indentkeys+==~end,=~do,=~if,=~then,=~else
 
 setlocal indentexpr=NCLIndent()
@@ -41,7 +40,7 @@ function NCLIndent()
    if curstat =~? '^\s*\(else\|\(end\s*\(do\|if\)\)\)\>'
       let ind = ind - &sw
    endif
-"  echo ind
+
    if ind < 0
       let ind = 0
    endif
