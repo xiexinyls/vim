@@ -1,8 +1,9 @@
-
 "-------------------------------------------------------------------------------
 "NCL indent file
 "Language: NCL
-"Author: Xin Xie
+"Author: Xin Xie (xiexinyls@gmail.com)
+"        School of Marine and Atmospheric Science
+"        Stony Brook University
 "Reference: Sebastien Burton and Ajit J. Thakkar's code for Fortran indent.
 "-------------------------------------------------------------------------------
 "
