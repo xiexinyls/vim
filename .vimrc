@@ -53,8 +53,8 @@ set smarttab
 
 " Allow backspace to back over lines
 "set backspace=2
-set shiftwidth=3
-set tabstop=3
+set shiftwidth=4
+set tabstop=4
 set expandtab
 
 set nowrap
