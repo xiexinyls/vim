@@ -42,9 +42,7 @@ set statusline=%F%m%r%h%w\ [FORMAT=%{&ff}]\ [TYPE=%Y]\ [ASCII=\%03.3b]\ [HEX=\%0
 
 " Uncomment the following to have Vim jump to the last position when
 " " reopening a file
-au BufReadPost * if line("'\"") > 1 && line("'\"") <= line("$") | exe
-normal! g'\"" | endif
-
+au BufReadPost * if line("'\"") > 1 && line("'\"") <= line("$") | exe "normal! g'\"" | endif
 
 " Switch syntax highlighting on, when the terminal has colors
 " Also switch on highlighting the last used search pattern.
