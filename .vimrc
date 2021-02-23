@@ -63,3 +63,6 @@ set expandtab
 set nowrap
 
 
+vnoremap > >gv
+vnoremap < <gv
+
